@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+    height: 100%;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #000;
+    word-wrap: break-word;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    background-color: #fff;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+    padding-top: 114px;
+    position: relative;
+}
+h1 {
+    margin: 0;
+    letter-spacing: 3.5px;
+    line-height: 1.1;
+    color: #222;
+    font-family: 'Dosis', sans-serif;
+    padding: 25px 0;
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+}
+.about-us p{
+     text-align: justify;
+}
+hr {
+    border-top: 1px solid #892620;
+}
+a:hover, a:focus{
+    text-decoration: none;
+}
+.nomargin {
+    margin: 0;
+}
+.nopadding {
+    padding: 0;
+}
+.nopad-left {
+    padding-left: 0;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.ml-20{
+    margin-left:20px;
+}
+.mb-10{
+    margin-bottom:10px;
+}
+.navbar-default {
+    background-color: #fff9cb;
+}
+.navbar-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+.site-title a,
+.site-title a:hover {
+    color: #fff;
+}
+.site-description {
+    font-size: 14px;
+    color: #BDBDBD;
+    margin: 0;
+    line-height: 15px;
+    letter-spacing: 2.1px;
+    font-weight: 600;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color:  #892620!important;
+    border-bottom: 1px solid #892620;
+    background-color: transparent !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    position: relative;
+    padding: 6px 0;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 18px;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #892620;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+.nav>li {
+    padding: 5px 15px;
+}
+.navbar-default,.navbar-default .navbar-collapse {
+    border-color: #892620;
+}
+.panel {
+    background-color: #222;
+}
+.panel-default>.panel-heading {
+    padding: 15px 15px 0 15px;
+    color: #fff;
+    background-color: #222;
+    border-color: #222;
+}
+.panel-title {
+    font-size: 20px;
+}
+.list-group-item {
+    background-color: #222;
+    border: 1px solid #ddd;
+    color: #fff;
+}
+.contactus-details {
+    background-color: #fff9cb;
+    min-height: 461px;
+    padding: 15px 0 0;
+}
+.contactus-details .contact-info{
+ margin-bottom: 20px;
+}
+.contactus-details .contact-info-item{
+margin-top: 8px;
+}
+.contactus-details .contact-info-icon{
+    width: 60px;
+    height: 60px;
+    background-color: #892620;
+    border-radius:50%;
+    text-align: center;
+    
+}  
+.contact-info .contact-info-icon .glyphicon-home,
+.contact-info .contact-info-icon .glyphicon-phone,
+.contact-info .contact-info-icon .glyphicon-envelope{
+    color: #fff;
+    font-size: 24px;
+    vertical-align: middle;
+    top: 12px;
+}
+
+.contactus-details .contact-info-content p{
+        color: #222;
+}
+.marketing{
+    margin-top: 40px;
+  }
+.marketing-circle{
+    width: 140px;
+    height: 140px;
+    background-color: #fff9cb;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid #892620;
+}
+.marketing-circle img{
+    margin: 30% 0;
+}
+.marketing-icon{
+    overflow: hidden;
+}
+.marketing-icon img{
+    object-fit: cover;
+    transition: transform 800ms;
+}
+.form-container {
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+.gallery-img, .floor-gallery{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    padding: 5px;
+    border:1px solid #505050; 
+    margin-bottom: 15px; 
+} 
+.gallery-img a img, 
+.floor-gallery a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 800ms;
+} 
+.gallery-img a:hover img, 
+.floor-gallery a:hover img,
+.marketing-icon img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.footer-wrapper{
+    background-color: #fff;
+    padding: 15px 0;
+}
+.footer-wrapper .site-address{
+    margin:15px 0 0 0;
+}
+.footer-wrapper p{
+    font-size: 15px;
+    margin: 0;
+}
+.show-hide-button{
+    background-color: #892620;
+    color: #fff;
+    border-color: #892620;
+    font-weight: bold;
+}
+.glyphicon.glyphicon-chevron-down,
+.glyphicon.glyphicon-chevron-up{
+    top: 3px;
+}
+.vijaya-vasant-video{
+    cursor: pointer;
+}
+@media (min-width: 320px) {
+    .container>.navbar-header {
+        margin-right: 0; 
+        margin-left: 0;
+    }
+}
+@media (min-width: 768px) {
+    .nav>li {
+    padding: 40px 15px;
+}
+}
+@media (max-width: 768px) {
+.marketing-sec{
+    margin-bottom: 20px;
+}
+}
